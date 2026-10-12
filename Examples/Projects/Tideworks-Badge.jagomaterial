@@ -1,0 +1,141 @@
+{
+  "format": "jagomaterial",
+  "version": 1,
+  "name": "Tideworks badge",
+  "size": 1024,
+  "background": "transparent",
+  "layers": [
+    {
+      "id": "29f6dbfc-2ba5-46b8-be41-927501869f99",
+      "name": "Tideworks · copper and verdigris",
+      "source": {
+        "kind": "cutpaper",
+        "dark": "#405e61",
+        "light": "#d9c69c",
+        "scale": 6,
+        "seed": "jago-1",
+        "angle": 0,
+        "style": "realistic",
+        "details": {},
+        "relief": 1,
+        "detail": 0.5,
+        "age": 0,
+        "wet": 0,
+        "direction": "vertical",
+        "parts": [
+          {
+            "id": "c3a8234a-5c1a-4ee7-85d5-985e6db0ad20",
+            "points": [
+              [
+                0.24,
+                0.18
+              ],
+              [
+                0.76,
+                0.18
+              ],
+              [
+                0.86,
+                0.28
+              ],
+              [
+                0.86,
+                0.72
+              ],
+              [
+                0.76,
+                0.82
+              ],
+              [
+                0.24,
+                0.82
+              ],
+              [
+                0.14,
+                0.72
+              ],
+              [
+                0.14,
+                0.28
+              ]
+            ],
+            "x": 0,
+            "y": 0,
+            "colour": "#bca070",
+            "material": {
+              "kind": "metal",
+              "dark": "#472d21",
+              "light": "#daab72",
+              "scale": 6,
+              "seed": "tideworks-copper",
+              "angle": 0,
+              "style": "realistic",
+              "details": {
+                "brushing": 95,
+                "corrosion": 0.7,
+                "polish": 0.7,
+                "pitting": 0.7,
+                "hammering": 0.15,
+                "oxidation": 1
+              },
+              "relief": 1,
+              "detail": 0.5,
+              "age": 0,
+              "wet": 0,
+              "direction": "vertical"
+            }
+          }
+        ],
+        "lead": 0.012,
+        "leadColour": "#243b3c",
+        "depth": 0,
+        "shadow": 0,
+        "fold": 0,
+        "drawing": {
+          "stroke": "#40372e",
+          "strokeWidth": 0.002,
+          "fillMode": "filled"
+        },
+        "objectFinish": {
+          "kind": "gilded",
+          "width": 0.008,
+          "irregularity": 0.25,
+          "relief": 0.5,
+          "colour": "#c9a362"
+        }
+      },
+      "effects": [
+        {
+          "id": "94ef325e-010f-4db7-b092-8ed25feb2c55",
+          "kind": "imprint",
+          "enabled": true,
+          "amount": 1,
+          "operation": "foil",
+          "colour": "#e3c991",
+          "params": {
+            "depth": 0.45,
+            "wear": 0.18,
+            "markScale": 0.85,
+            "markY": 0
+          },
+          "imprintSource": {
+            "kind": "text",
+            "text": "TIDE\nWORKS",
+            "font": "Georgia",
+            "textSize": 0.13,
+            "light": "#ffffff",
+            "dark": "#000000"
+          }
+        }
+      ],
+      "visible": true,
+      "opacity": 1,
+      "blend": "source-over",
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotation": 0
+    }
+  ],
+  "id": "b3ad64ff-5da4-4489-9de1-701acbe1d260"
+}

@@ -1,0 +1,69 @@
+{
+  "format": "jagomaterial",
+  "version": 1,
+  "name": "Paper & ink",
+  "size": 1024,
+  "background": "transparent",
+  "layers": [
+    {
+      "id": "45a73cd4-039f-4b58-a17f-b57c2d0dd65e",
+      "name": "Warm paper",
+      "source": {
+        "kind": "paper",
+        "dark": "#a38b66",
+        "light": "#f6e7c7",
+        "scale": 8,
+        "seed": "jago-1",
+        "angle": 0,
+        "style": "realistic",
+        "details": {},
+        "relief": 1,
+        "detail": 0.5,
+        "age": 0,
+        "wet": 0,
+        "direction": "vertical"
+      },
+      "effects": [],
+      "visible": true,
+      "opacity": 1,
+      "blend": "source-over",
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "a42f57f9-6b67-45df-850b-36b3e258d218",
+      "name": "Stamped lettering",
+      "source": {
+        "kind": "text",
+        "text": "INK &\nIMAGINATION",
+        "font": "serif",
+        "dark": "#193d36",
+        "light": "#294e40"
+      },
+      "effects": [
+        {
+          "id": "stamp-wear",
+          "kind": "distress",
+          "enabled": true,
+          "amount": 0.28
+        },
+        {
+          "id": "stamp-bleed",
+          "kind": "bleed",
+          "enabled": true,
+          "amount": 0.45
+        }
+      ],
+      "visible": true,
+      "opacity": 1,
+      "blend": "source-over",
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotation": 0
+    }
+  ],
+  "id": "32cf2210-d085-4b0c-a41a-4e8a442bfa3d"
+}

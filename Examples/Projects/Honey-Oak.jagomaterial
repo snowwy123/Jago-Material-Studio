@@ -1,0 +1,30 @@
+{
+  "format": "jagomaterial",
+  "version": 1,
+  "name": "Honey oak",
+  "size": 1024,
+  "background": "transparent",
+  "layers": [
+    {
+      "id": "ca4619e8-10f9-465a-a2d1-be6cfc5ca2d3",
+      "name": "Honey oak",
+      "source": {
+        "kind": "wood",
+        "dark": "#6a3d23",
+        "light": "#ddb477",
+        "scale": 7,
+        "seed": "jago-1",
+        "angle": 0
+      },
+      "effects": [],
+      "visible": true,
+      "opacity": 1,
+      "blend": "source-over",
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotation": 0
+    }
+  ],
+  "id": "e69d492f-5f7f-4b9b-8f95-7929733569e1"
+}
