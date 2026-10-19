@@ -1,17 +1,42 @@
-# Jago Material 0.15.0
+# Jago Material 0.16.0
 
-Make wood, glass, metal and textured artwork, with editable shapes, lettering, finishes and surface maps.
+Make surfaces with character.
 
-This repository contains the application source, examples, licence notices and illustrated guide. See **DEVELOPING.md** to build it. Ready-to-use Windows downloads belong under GitHub Releases.
+Create textured artwork, lettering and repeatable surfaces. Combine generated materials, scanned textures and your own marks, then export artwork or explicit surface channels.
+
+[Website](https://jagosuite.co.uk/) · [Downloads](https://github.com/snowwy123/Jago-Material-Studio/releases/latest)
 
 ## Get started
 
-Read **Documentation/Jago-Material-Studio-Guide.pdf** for an illustrated introduction. The app’s **?** menu provides help and shortcuts. Start with a blank project or explore the editable examples. Save your editable project as well as any finished exports. Each studio works independently; Workscape is optional.
+Download **Jago-Material-v0.16.0.zip**, right-click it and choose **Extract All**. Open **Jago-Material.exe** from the extracted folder. Keep supporting files together. No installer is needed for the portable edition. Open **Jago-Material.html** for offline browser use in current Edge or Chrome.
 
-## About & rights
+Windows requires 64-bit Windows and .NET Framework 4.8. Windows studio hosts require Microsoft Edge WebView2 Runtime.
 
-Open source. Free forever. Personal, professional and commercial use are welcome. Imported assets and third-party components retain their own licences; see LICENSE.txt and Notices where included.
+Read **Documentation/Jago-Material-Guide.pdf** for an illustrated introduction, tools and connected workflows. Save editable projects as well as finished exports.
+
+## Tools
+
+- Procedural wood, glass, metal and other editable material families.
+- Imported/scanned image textures with independent repeat scale, rotation and offsets.
+- Editable shapes, lettering, artwork masks, surface layers and lighting preview.
+- Roughness/metallic controls and optional relief or explicit channel maps.
+- Seeded Surprise me, texture library, tile inspection and motion exports.
+- Refined foil, emboss and deboss impressions with before/after comparison.
+- Gold, silver, copper, rose-gold and platinum finish choices.
+- Raised metal lettering from editable text, embedded fonts or rendered silhouettes.
+- Compressed leather grain and separate surface-channel treatment.
+- Eight editable finish/lettering examples plus additional starters.
 
 ## Try online
 
-[Open Jago Material in your browser](https://snowwy123.github.io/Jago-Material-Studio/). The root **index.html** is the current self-contained browser build. GitHub Pages should publish from **main / (root)**; **.nojekyll** keeps it a plain static site.
+https://snowwy123.github.io/Jago-Material-Studio/
+
+The root **index.html** is the offline browser build. Publish GitHub Pages from **main / (root)**.
+
+## Source
+
+Run **Build.ps1** from this repository; see **DEVELOPING.md** for prerequisites and checks. Ready-to-use downloads are distributed under Releases.
+
+## About & rights
+
+Open source. Free forever. Personal, professional and commercial use are welcome. Imported assets and third-party components retain their own licences. See the licence file and included notices.

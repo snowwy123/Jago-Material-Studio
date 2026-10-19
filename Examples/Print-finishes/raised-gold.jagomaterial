@@ -1,0 +1,46 @@
+{
+  "format": "jagomaterial",
+  "version": 1,
+  "name": "Gold raised lettering",
+  "size": 1024,
+  "background": "transparent",
+  "layers": [
+    {
+      "id": "95b38580-96f0-46c8-840b-942e318331a8",
+      "name": "Gold raised lettering",
+      "source": {
+        "kind": "text",
+        "text": "JAGO",
+        "font": "Georgia",
+        "textSize": 0.24,
+        "weight": "bold",
+        "light": "#ffffff",
+        "dark": "#000000",
+        "seed": "raised-metal"
+      },
+      "effects": [
+        {
+          "id": "67c3a6e0-8291-4050-95fd-d2f7b6bee2a9",
+          "kind": "metaltype",
+          "enabled": true,
+          "amount": 1,
+          "colour": "#d5aa4f",
+          "params": {
+            "extrude": 0.025,
+            "angle": 45,
+            "bevel": 0.55,
+            "gloss": 0.8,
+            "lightAngle": 135
+          }
+        }
+      ],
+      "visible": true,
+      "opacity": 1,
+      "blend": "source-over",
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotation": 0
+    }
+  ]
+}

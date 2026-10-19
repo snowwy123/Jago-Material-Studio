@@ -1,0 +1,46 @@
+{
+  "format": "jagomaterial",
+  "version": 1,
+  "name": "Copper raised lettering",
+  "size": 1024,
+  "background": "transparent",
+  "layers": [
+    {
+      "id": "4c832459-a043-4d03-86a5-4afca16c9772",
+      "name": "Copper raised lettering",
+      "source": {
+        "kind": "text",
+        "text": "JAGO",
+        "font": "Georgia",
+        "textSize": 0.24,
+        "weight": "bold",
+        "light": "#ffffff",
+        "dark": "#000000",
+        "seed": "raised-metal"
+      },
+      "effects": [
+        {
+          "id": "54563fe7-f2cd-4f12-bc67-f508eee7dd9b",
+          "kind": "metaltype",
+          "enabled": true,
+          "amount": 1,
+          "colour": "#c78556",
+          "params": {
+            "extrude": 0.025,
+            "angle": 45,
+            "bevel": 0.55,
+            "gloss": 0.8,
+            "lightAngle": 135
+          }
+        }
+      ],
+      "visible": true,
+      "opacity": 1,
+      "blend": "source-over",
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotation": 0
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "format": "jagomaterial",
+  "version": 1,
+  "name": "Silver raised lettering",
+  "size": 1024,
+  "background": "transparent",
+  "layers": [
+    {
+      "id": "99196719-8627-4da7-a8d5-1fed0535f2b6",
+      "name": "Silver raised lettering",
+      "source": {
+        "kind": "text",
+        "text": "JAGO",
+        "font": "Georgia",
+        "textSize": 0.24,
+        "weight": "bold",
+        "light": "#ffffff",
+        "dark": "#000000",
+        "seed": "raised-metal"
+      },
+      "effects": [
+        {
+          "id": "65c2bc8b-a3c7-4bb5-a948-3f50f3b7bc62",
+          "kind": "metaltype",
+          "enabled": true,
+          "amount": 1,
+          "colour": "#c4cbd1",
+          "params": {
+            "extrude": 0.025,
+            "angle": 45,
+            "bevel": 0.55,
+            "gloss": 0.8,
+            "lightAngle": 135
+          }
+        }
+      ],
+      "visible": true,
+      "opacity": 1,
+      "blend": "source-over",
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotation": 0
+    }
+  ]
+}

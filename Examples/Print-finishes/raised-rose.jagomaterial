@@ -1,0 +1,46 @@
+{
+  "format": "jagomaterial",
+  "version": 1,
+  "name": "Rose gold raised lettering",
+  "size": 1024,
+  "background": "transparent",
+  "layers": [
+    {
+      "id": "7382b209-2a5f-4421-82e4-dd14291711df",
+      "name": "Rose gold raised lettering",
+      "source": {
+        "kind": "text",
+        "text": "JAGO",
+        "font": "Georgia",
+        "textSize": 0.24,
+        "weight": "bold",
+        "light": "#ffffff",
+        "dark": "#000000",
+        "seed": "raised-metal"
+      },
+      "effects": [
+        {
+          "id": "6a132342-dca2-4d3b-81b0-c744c8b66eb2",
+          "kind": "metaltype",
+          "enabled": true,
+          "amount": 1,
+          "colour": "#d49b8a",
+          "params": {
+            "extrude": 0.025,
+            "angle": 45,
+            "bevel": 0.55,
+            "gloss": 0.8,
+            "lightAngle": 135
+          }
+        }
+      ],
+      "visible": true,
+      "opacity": 1,
+      "blend": "source-over",
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotation": 0
+    }
+  ]
+}

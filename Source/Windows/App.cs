@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 Cameron Jago Lis Illustrates.
 using System;using System.IO;using System.Drawing;using System.Reflection;using System.Runtime.CompilerServices;using System.Runtime.InteropServices;using System.Security.Cryptography;using System.Threading.Tasks;using System.Windows.Forms;using Microsoft.Web.WebView2.Core;using Microsoft.Web.WebView2.WinForms;
-[assembly: AssemblyTitle("Jago Material Studio")][assembly: AssemblyProduct("Jago Material Studio")][assembly: AssemblyCompany("Cameron Jago Lis Illustrates")][assembly: AssemblyVersion("0.15.0.0")][assembly: AssemblyFileVersion("0.15.0.0")]
+[assembly: AssemblyTitle("Jago Material Studio")][assembly: AssemblyProduct("Jago Material Studio")][assembly: AssemblyCompany("Cameron Jago Lis Illustrates")][assembly: AssemblyVersion("0.16.0.0")][assembly: AssemblyFileVersion("0.16.0.0")]
 static class Program {
  internal static string Root,Files,Test,Open;
  [DllImport("kernel32.dll",CharSet=CharSet.Unicode)]static extern bool SetDllDirectory(string path);
